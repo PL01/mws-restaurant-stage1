@@ -1,3 +1,11 @@
+if ('serviceWorker' in navigator) { //checks if whather or not the browser supports service workers
+  navigator.serviceWorker
+  .register('/sw.js') // register method is called with a string file url
+  .catch(function (err) {
+    console.error(err); //if an error occurs, catch & log it to console
+  });
+}
+
 let restaurants,
   neighborhoods,
   cuisines
@@ -209,11 +217,3 @@ addMarkersToMap = (restaurants = self.restaurants) => {
     self.markers.push(marker);
   });
 } */
-
-if ('serviceWorker' in navigator){ //checks if whather or not the browser supports service workers
-  navigator.serviceWorker
-  .register('/sw.js') // register method is called with a string file url
-  .catch(function(err){
-    console.error(err); //if an error occurs, catch & log it to console
-  });
-}
