@@ -308,6 +308,7 @@ nav h1 a {
   text-transform: uppercase;
   line-height: 1.1;
   padding-left: 15px;
+  text-align: center;
 }
 
 h3 {
