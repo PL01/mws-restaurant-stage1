@@ -334,6 +334,7 @@ h3 {
   font-size: 18px;
   font-weight: 700;
   text-align: center;
+  padding: 0 10px;
 }
 
 .restaurant-info-label,
@@ -407,6 +408,7 @@ h3 {
 #restaurant-hours {
   width: 100%;
   max-width: 500px;
+  padding: 0 10px;
 }
 
 #restaurant-hours tr td:first-of-type {
