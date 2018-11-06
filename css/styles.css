@@ -197,7 +197,7 @@ nav h1 a {
   font-family: Arial, sans-serif;
   margin: 15px;
   min-height: 380px;
-  padding: 0 0 25px;
+  padding: 10px 10px 25px;
   text-align: center;
   min-width: 270px;
   min-width: 270px;
@@ -408,7 +408,7 @@ h3 {
 #restaurant-hours {
   width: 100%;
   max-width: 500px;
-  padding: 0 10px;
+  padding: 0 10px 15px;
 }
 
 #restaurant-hours tr td:first-of-type {
