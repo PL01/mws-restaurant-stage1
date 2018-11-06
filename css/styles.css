@@ -387,7 +387,7 @@ h3 {
 
 #reviews-list li {
   background-color: #fff;
-  border: 2px solid #f3f3f3;
+  border: 1px solid #ccc;
   display: block;
   list-style-type: none;
   margin: 0 0 30px;
@@ -409,7 +409,9 @@ h3 {
 #restaurant-hours {
   width: 100%;
   max-width: 500px;
-  padding: 0 10px 15px;
+  padding: 15px 10px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 
 #restaurant-hours tr td:first-of-type {
