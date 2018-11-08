@@ -188,7 +188,7 @@ createRestaurantHTML = (restaurant) => {
   more.innerHTML = 'View Details';
   more.href = DBHelper.urlForRestaurant(restaurant);
   more.tabIndex = '3'; // Now our tabs jump correctly from Home -> Both filters -> Restaurant items.
-  li.append(more)
+  li.append(more);
 
   return li
 }
