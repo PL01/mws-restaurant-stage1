@@ -1,7 +1,7 @@
-if ('serviceWorker' in navigator) { //checks if whather or not the browser supports service workers
+if ('serviceWorker' in navigator) { //checks if whether or not the browser supports service workers
   navigator.serviceWorker.register('/sw.js') // register method is called with a string file url
   .catch(function (err) {
-    console.error(err); //if an error occurs, catch & log it to console
+    console.error(err); //if an error occurs, catch & log it to console.
   });
 }
 
@@ -185,7 +185,7 @@ createRestaurantHTML = (restaurant) => {
   const more = document.createElement('a');
   more.innerHTML = 'View Details';
   more.href = DBHelper.urlForRestaurant(restaurant);
-  more.tabIndex = '3';
+  more.tabIndex = '3'; // Now our tabs jump correctly from Home -> Both filters -> Restaurant items.
   li.append(more)
 
   return li
